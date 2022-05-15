@@ -1,7 +1,9 @@
 // arrays
 const users = [`damian`,`kinga`,`miena`,`szymek`];
 console.log(users.length);
-// Switch statement
+
+// Switch, for statement
+
 let text = `orange`;
 
 if (text === `banana`) {
@@ -21,3 +23,11 @@ switch (text) {
         console.log(`I don't know ${text}`)
         break;
 }
+
+// Loops
+
+for (let i = 0; i < 100; i++) {
+    console.log(i);
+    
+}
+

@@ -27,7 +27,20 @@ switch (text) {
 // Loops
 
 for (let i = 0; i < 100; i++) {
+    if (i===20) {
+        console.log(`It's 20`);
+        continue;
+        // Its nog going to run anythin underneath, just goesb bact to the for loop
+    }else if(i===40){
+        console.log(`Thank you!`)
+        break;
+    }
     console.log(i);
-    
 }
 
+const array = [`one`, `two`, `three`,`four`];
+
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i])
+    
+}

@@ -70,3 +70,4 @@ for (let x in user) {
   console.log(user[x]);
   // returns values
 }
+//DOM
